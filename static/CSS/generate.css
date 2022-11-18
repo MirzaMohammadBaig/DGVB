@@ -131,7 +131,7 @@ label{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.dtn:hover{
+.dtn:hover, .dtn2:hover{
     background-color: rgb(230, 40, 72);
 }
 
@@ -150,4 +150,24 @@ label{
     width: 40%;
     margin: 10px auto;
 
+}
+
+.verify{
+    /* display: none; */
+}
+
+.dtn2{
+    padding: 13px;
+    
+    width: 10%;
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
+    background-color: rgb(255, 119, 141);
+    border: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    box-shadow: rgba(168, 48, 48, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

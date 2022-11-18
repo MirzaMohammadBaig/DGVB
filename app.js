@@ -1,8 +1,7 @@
-const apps = require('./static/JS/app.js');
 const express = require('express');
 const path = require('path');
 const app = express();
-const portt = 3000;
+const portt = 5000;
 // const jwt = require('jsonwebtoken');
 const session = require('express-session');
 
@@ -50,6 +49,8 @@ app.use(express.urlencoded({ extended: true }))
 const port = process.env.PORT || 5000;
 //EXPRESS RELATED STUFF
 app.use('/static',express.static('static'));// for serving static files
+app.use('/node_modules',express.static('node_modules'));// for serving static files
+app.use('/build/contracts',express.static('build/contracts'));// for serving static files
 app.use(express.urlencoded({ extended: true }));
 
 
@@ -64,10 +65,11 @@ app.set('views', path.join(__dirname, 'views'));// set views directory
 
 // END POINTS 
 app.get('/', (req, res)=>{
-       
-            App.load()
         res.sendFile(path.join(__dirname+'/views/home.html'));
 });
+// app.get('/', (req, res)=>{
+//         res.sendFile(path.join(__dirname+'/views/main.html'));
+// });
 
 app.get('/logout', (req, res)=>{
     res.redirect('/');
@@ -78,11 +80,13 @@ app.get('/newAcc', (req, res)=>{
 })
 
 app.post('/login1',(req, res)=>{
-    res.sendFile(path.join(__dirname+'/views/issuer.html'));
+    res.sendFile(path.join(__dirname+'/views/main.html'));
+    // res.sendFile(path.join(__dirname+'/views/main.html'));
 })
 
 app.post('/login2',(req, res)=>{
-    res.sendFile(path.join(__dirname+'/views/issuer.html'));
+    res.sendFile(path.join(__dirname+'/views/mainUser.html'));
+    // res.sendFile(path.join(__dirname+'/views/main.html'));
 })
 
 app.get('/login-issuer', (req, res)=>{
@@ -103,12 +107,6 @@ app.post('/signup',(req, res)=>{
 
 
 
-
-
-App.dummy()
-App.getAcc(function(answer){
-    console.log(answer);
-})
 
 
 

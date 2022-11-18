@@ -377,7 +377,7 @@ validateTask: async ()=> {
     }
     else
     {
-      $('#nameV').html("Doest not exists");
+      $('#nameV').html("Invalid certificate");
       $('#courseV').html("")
       $('#issuerV').html("")
       $('#dateV').html("")
