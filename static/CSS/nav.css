@@ -1,111 +1,70 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body{
-    margin: 0px;
-    padding: 0px;
+    background-image: url('https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+    opacity: 0.9;
 }
-header {
-    margin-bottom: 20px;
-}
-
-.navbar{
-    background-color: rgb(255, 119, 141);
-    border-radius: 0px;
-    padding: 10px 2px;
-    width: inherit;
-}
-.navbar ul{
-    overflow: auto;
-    /* padding: 10px 10px; */
-}
-.navbar li{
-    float: left;
-    list-style: none;
-    margin: 13px 20px;
-    padding: 2px;
+#hr{
+    height: 1px;
+    width: 80%;
+    margin:10px auto;
     
+    background-color:rgb(224, 213, 54);
+    size:30px;
+    /* border:solid rgb(224, 213, 54); */
 }
-.navbar ul li h1{
-   font-size: 33px;
-}
-.navbar li a{
-    padding:10px 10px;
-    text-decoration: none;
-    color: black;
-}
-.navbar #sb 
-{
-    width: 330px;
-    border: 0px;
-    border-radius: 4px;
-}
-.navbar #log{
-    float: right;
-    font-weight: bold;
+header{
+    color:rgb(224, 213, 54);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    margin-top:20px;
 }
 
-.navbar #log li{
-    border: 1px solid black;
-    border-radius: 3px;
-    display: none;  /* sidhsiahdaw*/
+header .navbar h1{
+    margin:auto auto;
 }
-
-
-.navbar li img{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px 0px;
-    width: 30px;
-    height: 20px;
-}
-.content{
-    margin: 30px 60px;
-    width: auto;
-    text-align: justify;
-}
-#footer{
-    text-align: center;
-    padding: 10px 30px;
-    margin-bottom: 0px;
-
-}
-body{
-    background-image: url(https://img.freepik.com/premium-photo/gray-calathea-lutea-leaf-patterned-background_53876-149681.jpg?w=900);
-}
-button{
-    background-color: pink;
-    border : 1px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
-
 
 .login{
-    margin: 30px 60px;
-    width: auto;
-    text-align: justify;
+    height:400px;
+    width:400px;
+    margin:30px auto;
+    /* border:solid white; */
+    background-color: rgb(31, 1, 66);
+    border-radius: 15px;
+    
 }
 
-.ali{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
+#loginAs{
+    color:white;
+    font-size: 25px;
     font-weight: bold;
-    font-size: large;
-    text-align: center;
-    padding: 10px 5px;
-    margin: 5px 0px;
-    border: 0px solid black;
-    background-color: rgb(255, 119, 141);
-    width: 10%;
-    box-shadow: rgba(56, 53, 53, 0.35) 0px 5px 15px;
+    margin: auto;
+    padding-top:20px;
+    width:fit-content;
 }
-.ali:hover{
-    background: pink;
 
-    border-radius: 3px;
+#loginOptions
+{
+    margin-top:40px;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: rgba(97, 97, 235, 0.674);
+    border-radius: 5px;
+    color:white;
+
+    
+}
+a:hover{
+    color:rgb(224, 213, 54);
+}
+#loginOptions{
+    margin: 20px auto;
+    display: flex;
+    justify-content:center;
+    
+}
+#loginOptions div{
+    margin: 20px;
 }
