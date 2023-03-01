@@ -23,6 +23,7 @@
     "jsonwebtoken": "^8.5.1",
     "lite-server": "^2.6.1",
     "mysql": "^2.18.1",
+    "pdfkit": "^0.13.0",
     "pug": "^3.0.2",
     "solidity": "^0.0.1",
     "truffle": "^5.0.2",

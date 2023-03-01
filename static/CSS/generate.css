@@ -6,9 +6,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-header {
-    margin-bottom: 20px;
-}
+
 
 .navbar{
     background-color: rgb(255, 119, 141);
@@ -64,7 +62,7 @@ header {
      height: max-content;
      margin: 0px auto;
      font-family: 'Arial', 'sans-serif';
-     box-shadow: rgba(168, 48, 48, 0.35) 0px 5px 15px;
+     box-shadow: #0d6efd 0px 5px 15px;
      border-radius: 2px;
      margin-bottom: 40px;
 }
@@ -76,6 +74,8 @@ header {
      font-family: 'Arial', 'sans-serif';
      border-radius: 2px;
      margin-bottom: 40px;
+    border-radius: 6px;
+
 }
 h1{
     margin: 0px;
@@ -103,8 +103,8 @@ input{
     padding: 10px;
     font-size: medium;
     border: 0px;
-    /* border-radius: 10px; */
-    box-shadow: rgba(168, 48, 48, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+    box-shadow: #0d6dfd4f 0px 5px 15px;
 }
 
 
@@ -122,17 +122,19 @@ label{
     width: 30%;
     font-family: 'Arial', 'sans-serif';
     font-weight: bold;
-    background-color: rgb(255, 119, 141);
+    background-color: #0d6efd;
     border: 0px;
     cursor: pointer;
     font-size: 20px;
     color: white;
-    box-shadow: rgba(168, 48, 48, 0.35) 0px 5px 15px;
+    box-shadow: #0d6dfd4f 0px 5px 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 6px;
 }
 .dtn:hover, .dtn2:hover{
-    background-color: rgb(230, 40, 72);
+    background-color: #0a53bf;
+
 }
 
 .up{
@@ -158,16 +160,62 @@ label{
 
 .dtn2{
     padding: 13px;
-    
+    border-radius: 6px;
     width: 10%;
     font-family: 'Arial', 'sans-serif';
     font-weight: bold;
-    background-color: rgb(255, 119, 141);
+    background-color: #0d6efd;
     border: 0px;
     cursor: pointer;
     font-size: 20px;
     color: white;
-    box-shadow: rgba(168, 48, 48, 0.35) 0px 5px 15px;
+    box-shadow: #0d6dfd4f 0px 5px 15px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+header h2{
+    /* border: 2px red solid; */
+    margin: 0px auto;
+    padding: 0px;
+    width: fit-content;
+    font-size: 50px;
+    color: white;
+}
+  header{
+    height: 100px;
+    background-color: #0d6efd;
+  }
+
+  #log{
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  #log a{
+    text-decoration: none;
+  }
+  #log a:hover{
+    background-color: #0a53bf;
+    color: white;
+  }
+
+  a.hreff{
+    text-decoration: none;
+    color: white;
+    background-color: #0d6efd;
+    padding: 19px 19px;
+    margin: 3px 3px;
+    border-radius: 5px;
+    font-family: 'Arial', 'sans-serif';
+    font-weight: bold;
+    box-shadow: #0d6dfd4f 0px 5px 15px;
+  }
+  a.hreff:hover{
+    color: white;
+    background-color: #0a53bf;
+  }
