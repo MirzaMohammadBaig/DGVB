@@ -18,10 +18,10 @@ router.get('/new', function(req, res) {
 });
 
 router.post('/reg', (req,res)=>{
-    var temp = {
-        roll_no: '19211a05g2',
-        password : 'xyz'
-    }
+    // var temp = {
+    //     roll_no: '19211a05g2',
+    //     password : 'xyz'
+    // }
     // console.log(student.auth(temp));
     console.log(req.body);
     if(student.insertData(req.body))
@@ -29,5 +29,6 @@ router.post('/reg', (req,res)=>{
     else
     res.send("not ok")
 }) 
+
 
 module.exports = router;

@@ -120,14 +120,14 @@
     "absolutePath": "project:/contracts/Questions.sol",
     "exportedSymbols": {
       "Questions": [
-        135
+        141
       ]
     },
-    "id": 136,
+    "id": 142,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 69,
+        "id": 75,
         "literals": [
           "solidity",
           "=",
@@ -143,19 +143,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 135,
+        "id": 141,
         "linearizedBaseContracts": [
-          135
+          141
         ],
         "name": "Questions",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 72,
+            "id": 78,
             "name": "count",
             "nodeType": "VariableDeclaration",
-            "scope": 135,
+            "scope": 141,
             "src": "51:19:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -164,7 +164,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 70,
+              "id": 76,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "51:4:1",
@@ -176,7 +176,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 71,
+              "id": 77,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -195,14 +195,14 @@
           },
           {
             "canonicalName": "Questions.Paper",
-            "id": 87,
+            "id": 93,
             "members": [
               {
                 "constant": false,
-                "id": 74,
+                "id": 80,
                 "name": "id",
                 "nodeType": "VariableDeclaration",
-                "scope": 87,
+                "scope": 93,
                 "src": "100:7:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -211,7 +211,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 73,
+                  "id": 79,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "100:4:1",
@@ -225,10 +225,10 @@
               },
               {
                 "constant": false,
-                "id": 76,
+                "id": 82,
                 "name": "hashval",
                 "nodeType": "VariableDeclaration",
-                "scope": 87,
+                "scope": 93,
                 "src": "118:14:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -237,7 +237,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 75,
+                  "id": 81,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "118:6:1",
@@ -251,10 +251,10 @@
               },
               {
                 "constant": false,
-                "id": 78,
+                "id": 84,
                 "name": "text",
                 "nodeType": "VariableDeclaration",
-                "scope": 87,
+                "scope": 93,
                 "src": "143:11:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -263,7 +263,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 77,
+                  "id": 83,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "143:6:1",
@@ -277,10 +277,10 @@
               },
               {
                 "constant": false,
-                "id": 80,
+                "id": 86,
                 "name": "issuer",
                 "nodeType": "VariableDeclaration",
-                "scope": 87,
+                "scope": 93,
                 "src": "165:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -289,7 +289,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 79,
+                  "id": 85,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "165:6:1",
@@ -303,10 +303,10 @@
               },
               {
                 "constant": false,
-                "id": 82,
+                "id": 88,
                 "name": "date",
                 "nodeType": "VariableDeclaration",
-                "scope": 87,
+                "scope": 93,
                 "src": "189:11:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -315,7 +315,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 81,
+                  "id": 87,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "189:6:1",
@@ -329,10 +329,10 @@
               },
               {
                 "constant": false,
-                "id": 84,
+                "id": 90,
                 "name": "branch",
                 "nodeType": "VariableDeclaration",
-                "scope": 87,
+                "scope": 93,
                 "src": "211:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -341,7 +341,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 83,
+                  "id": 89,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "211:6:1",
@@ -355,10 +355,10 @@
               },
               {
                 "constant": false,
-                "id": 86,
+                "id": 92,
                 "name": "exists",
                 "nodeType": "VariableDeclaration",
-                "scope": 87,
+                "scope": 93,
                 "src": "235:11:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -367,7 +367,7 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 85,
+                  "id": 91,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "235:4:1",
@@ -382,27 +382,27 @@
             ],
             "name": "Paper",
             "nodeType": "StructDefinition",
-            "scope": 135,
+            "scope": 141,
             "src": "77:177:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 91,
+            "id": 97,
             "name": "papers",
             "nodeType": "VariableDeclaration",
-            "scope": 135,
+            "scope": 141,
             "src": "260:38:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Paper_$87_storage_$",
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Paper_$93_storage_$",
               "typeString": "mapping(string => struct Questions.Paper)"
             },
             "typeName": {
-              "id": 90,
+              "id": 96,
               "keyType": {
-                "id": 88,
+                "id": 94,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "268:6:1",
@@ -414,18 +414,18 @@
               "nodeType": "Mapping",
               "src": "260:24:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Paper_$87_storage_$",
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Paper_$93_storage_$",
                 "typeString": "mapping(string => struct Questions.Paper)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 89,
+                "id": 95,
                 "name": "Paper",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 87,
+                "referencedDeclaration": 93,
                 "src": "278:5:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Paper_$87_storage_ptr",
+                  "typeIdentifier": "t_struct$_Paper_$93_storage_ptr",
                   "typeString": "struct Questions.Paper"
                 }
               }
@@ -435,7 +435,7 @@
           },
           {
             "body": {
-              "id": 102,
+              "id": 108,
               "nodeType": "Block",
               "src": "331:81:1",
               "statements": [
@@ -446,7 +446,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "313233",
-                        "id": 95,
+                        "id": 101,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -464,7 +464,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "7175657374696f6e",
-                        "id": 96,
+                        "id": 102,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -482,7 +482,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "6973737565724e616d65",
-                        "id": 97,
+                        "id": 103,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -500,7 +500,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "64617465",
-                        "id": 98,
+                        "id": 104,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -518,7 +518,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "6272616e6368",
-                        "id": 99,
+                        "id": 105,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -557,18 +557,18 @@
                           "typeString": "literal_string \"branch\""
                         }
                       ],
-                      "id": 94,
+                      "id": 100,
                       "name": "createPaper",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 134,
+                      "referencedDeclaration": 140,
                       "src": "342:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory,string memory,string memory,string memory,string memory)"
                       }
                     },
-                    "id": 100,
+                    "id": 106,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -582,32 +582,32 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 101,
+                  "id": 107,
                   "nodeType": "ExpressionStatement",
                   "src": "342:62:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 103,
+            "id": 109,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 92,
+              "id": 98,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "322:2:1"
             },
             "returnParameters": {
-              "id": 93,
+              "id": 99,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "331:0:1"
             },
-            "scope": 135,
+            "scope": 141,
             "src": "311:101:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -615,14 +615,14 @@
           },
           {
             "body": {
-              "id": 133,
+              "id": 139,
               "nodeType": "Block",
               "src": "557:116:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 117,
+                    "id": 123,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -633,11 +633,11 @@
                     "src": "568:8:1",
                     "subExpression": {
                       "argumentTypes": null,
-                      "id": 116,
+                      "id": 122,
                       "name": "count",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 72,
+                      "referencedDeclaration": 78,
                       "src": "568:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -649,14 +649,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 118,
+                  "id": 124,
                   "nodeType": "ExpressionStatement",
                   "src": "568:8:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 131,
+                    "id": 137,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -665,25 +665,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 119,
+                        "id": 125,
                         "name": "papers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 91,
+                        "referencedDeclaration": 97,
                         "src": "587:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Paper_$87_storage_$",
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Paper_$93_storage_$",
                           "typeString": "mapping(string memory => struct Questions.Paper storage ref)"
                         }
                       },
-                      "id": 121,
+                      "id": 127,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 120,
+                        "id": 126,
                         "name": "_hashval",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 105,
+                        "referencedDeclaration": 111,
                         "src": "594:8:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -697,7 +697,7 @@
                       "nodeType": "IndexAccess",
                       "src": "587:16:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Paper_$87_storage",
+                        "typeIdentifier": "t_struct$_Paper_$93_storage",
                         "typeString": "struct Questions.Paper storage ref"
                       }
                     },
@@ -708,11 +708,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 123,
+                          "id": 129,
                           "name": "count",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 72,
+                          "referencedDeclaration": 78,
                           "src": "612:5:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -721,11 +721,11 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 124,
+                          "id": 130,
                           "name": "_hashval",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 105,
+                          "referencedDeclaration": 111,
                           "src": "619:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -734,11 +734,11 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 125,
+                          "id": 131,
                           "name": "_text",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 107,
+                          "referencedDeclaration": 113,
                           "src": "628:5:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -747,11 +747,11 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 126,
+                          "id": 132,
                           "name": "_issuer",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 109,
+                          "referencedDeclaration": 115,
                           "src": "635:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -760,11 +760,11 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 127,
+                          "id": 133,
                           "name": "_date",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 111,
+                          "referencedDeclaration": 117,
                           "src": "644:5:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -773,11 +773,11 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 128,
+                          "id": 134,
                           "name": "_branch",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 113,
+                          "referencedDeclaration": 119,
                           "src": "651:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -787,7 +787,7 @@
                         {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 129,
+                          "id": 135,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -834,18 +834,18 @@
                             "typeString": "bool"
                           }
                         ],
-                        "id": 122,
+                        "id": 128,
                         "name": "Paper",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 87,
+                        "referencedDeclaration": 93,
                         "src": "606:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_Paper_$87_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_Paper_$93_storage_ptr_$",
                           "typeString": "type(struct Questions.Paper storage pointer)"
                         }
                       },
-                      "id": 130,
+                      "id": 136,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -855,39 +855,39 @@
                       "nodeType": "FunctionCall",
                       "src": "606:59:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Paper_$87_memory",
+                        "typeIdentifier": "t_struct$_Paper_$93_memory",
                         "typeString": "struct Questions.Paper memory"
                       }
                     },
                     "src": "587:78:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Paper_$87_storage",
+                      "typeIdentifier": "t_struct$_Paper_$93_storage",
                       "typeString": "struct Questions.Paper storage ref"
                     }
                   },
-                  "id": 132,
+                  "id": 138,
                   "nodeType": "ExpressionStatement",
                   "src": "587:78:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 134,
+            "id": 140,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "createPaper",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 114,
+              "id": 120,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 105,
+                  "id": 111,
                   "name": "_hashval",
                   "nodeType": "VariableDeclaration",
-                  "scope": 134,
+                  "scope": 140,
                   "src": "441:22:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -896,7 +896,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 104,
+                    "id": 110,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "441:6:1",
@@ -910,10 +910,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 107,
+                  "id": 113,
                   "name": "_text",
                   "nodeType": "VariableDeclaration",
-                  "scope": 134,
+                  "scope": 140,
                   "src": "464:19:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -922,7 +922,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 106,
+                    "id": 112,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "464:6:1",
@@ -936,10 +936,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 109,
+                  "id": 115,
                   "name": "_issuer",
                   "nodeType": "VariableDeclaration",
-                  "scope": 134,
+                  "scope": 140,
                   "src": "484:21:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -948,7 +948,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 108,
+                    "id": 114,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "484:6:1",
@@ -962,10 +962,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 111,
+                  "id": 117,
                   "name": "_date",
                   "nodeType": "VariableDeclaration",
-                  "scope": 134,
+                  "scope": 140,
                   "src": "507:19:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -974,7 +974,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 110,
+                    "id": 116,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "507:6:1",
@@ -988,10 +988,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 113,
+                  "id": 119,
                   "name": "_branch",
                   "nodeType": "VariableDeclaration",
-                  "scope": 134,
+                  "scope": 140,
                   "src": "528:21:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1000,7 +1000,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 112,
+                    "id": 118,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "528:6:1",
@@ -1016,19 +1016,19 @@
               "src": "440:110:1"
             },
             "returnParameters": {
-              "id": 115,
+              "id": 121,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "557:0:1"
             },
-            "scope": 135,
+            "scope": 141,
             "src": "420:253:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 136,
+        "scope": 142,
         "src": "26:650:1"
       }
     ],
@@ -1039,7 +1039,7 @@
       "absolutePath": "project:/contracts/Questions.sol",
       "exportedSymbols": {
         "Questions": [
-          135
+          141
         ]
       }
     },
@@ -1053,7 +1053,7 @@
             ".16"
           ]
         },
-        "id": 69,
+        "id": 75,
         "name": "PragmaDirective",
         "src": "0:24:1"
       },
@@ -1069,17 +1069,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            135
+            141
           ],
           "name": "Questions",
-          "scope": 136
+          "scope": 142
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "count",
-              "scope": 135,
+              "scope": 141,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -1091,7 +1091,7 @@
                   "name": "uint",
                   "type": "uint256"
                 },
-                "id": 70,
+                "id": 76,
                 "name": "ElementaryTypeName",
                 "src": "51:4:1"
               },
@@ -1108,12 +1108,12 @@
                   "type": "int_const 0",
                   "value": "0"
                 },
-                "id": 71,
+                "id": 77,
                 "name": "Literal",
                 "src": "69:1:1"
               }
             ],
-            "id": 72,
+            "id": 78,
             "name": "VariableDeclaration",
             "src": "51:19:1"
           },
@@ -1121,7 +1121,7 @@
             "attributes": {
               "canonicalName": "Questions.Paper",
               "name": "Paper",
-              "scope": 135,
+              "scope": 141,
               "visibility": "public"
             },
             "children": [
@@ -1129,7 +1129,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "id",
-                  "scope": 87,
+                  "scope": 93,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "uint256",
@@ -1142,12 +1142,12 @@
                       "name": "uint",
                       "type": "uint256"
                     },
-                    "id": 73,
+                    "id": 79,
                     "name": "ElementaryTypeName",
                     "src": "100:4:1"
                   }
                 ],
-                "id": 74,
+                "id": 80,
                 "name": "VariableDeclaration",
                 "src": "100:7:1"
               },
@@ -1155,85 +1155,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "hashval",
-                  "scope": 87,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "string",
-                  "value": null,
-                  "visibility": "internal"
-                },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "string",
-                      "type": "string"
-                    },
-                    "id": 75,
-                    "name": "ElementaryTypeName",
-                    "src": "118:6:1"
-                  }
-                ],
-                "id": 76,
-                "name": "VariableDeclaration",
-                "src": "118:14:1"
-              },
-              {
-                "attributes": {
-                  "constant": false,
-                  "name": "text",
-                  "scope": 87,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "string",
-                  "value": null,
-                  "visibility": "internal"
-                },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "string",
-                      "type": "string"
-                    },
-                    "id": 77,
-                    "name": "ElementaryTypeName",
-                    "src": "143:6:1"
-                  }
-                ],
-                "id": 78,
-                "name": "VariableDeclaration",
-                "src": "143:11:1"
-              },
-              {
-                "attributes": {
-                  "constant": false,
-                  "name": "issuer",
-                  "scope": 87,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "string",
-                  "value": null,
-                  "visibility": "internal"
-                },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "string",
-                      "type": "string"
-                    },
-                    "id": 79,
-                    "name": "ElementaryTypeName",
-                    "src": "165:6:1"
-                  }
-                ],
-                "id": 80,
-                "name": "VariableDeclaration",
-                "src": "165:13:1"
-              },
-              {
-                "attributes": {
-                  "constant": false,
-                  "name": "date",
-                  "scope": 87,
+                  "scope": 93,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string",
@@ -1248,18 +1170,18 @@
                     },
                     "id": 81,
                     "name": "ElementaryTypeName",
-                    "src": "189:6:1"
+                    "src": "118:6:1"
                   }
                 ],
                 "id": 82,
                 "name": "VariableDeclaration",
-                "src": "189:11:1"
+                "src": "118:14:1"
               },
               {
                 "attributes": {
                   "constant": false,
-                  "name": "branch",
-                  "scope": 87,
+                  "name": "text",
+                  "scope": 93,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string",
@@ -1274,10 +1196,88 @@
                     },
                     "id": 83,
                     "name": "ElementaryTypeName",
-                    "src": "211:6:1"
+                    "src": "143:6:1"
                   }
                 ],
                 "id": 84,
+                "name": "VariableDeclaration",
+                "src": "143:11:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "issuer",
+                  "scope": 93,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 85,
+                    "name": "ElementaryTypeName",
+                    "src": "165:6:1"
+                  }
+                ],
+                "id": 86,
+                "name": "VariableDeclaration",
+                "src": "165:13:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "date",
+                  "scope": 93,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 87,
+                    "name": "ElementaryTypeName",
+                    "src": "189:6:1"
+                  }
+                ],
+                "id": 88,
+                "name": "VariableDeclaration",
+                "src": "189:11:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "branch",
+                  "scope": 93,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 89,
+                    "name": "ElementaryTypeName",
+                    "src": "211:6:1"
+                  }
+                ],
+                "id": 90,
                 "name": "VariableDeclaration",
                 "src": "211:13:1"
               },
@@ -1285,7 +1285,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "exists",
-                  "scope": 87,
+                  "scope": 93,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bool",
@@ -1298,17 +1298,17 @@
                       "name": "bool",
                       "type": "bool"
                     },
-                    "id": 85,
+                    "id": 91,
                     "name": "ElementaryTypeName",
                     "src": "235:4:1"
                   }
                 ],
-                "id": 86,
+                "id": 92,
                 "name": "VariableDeclaration",
                 "src": "235:11:1"
               }
             ],
-            "id": 87,
+            "id": 93,
             "name": "StructDefinition",
             "src": "77:177:1"
           },
@@ -1316,7 +1316,7 @@
             "attributes": {
               "constant": false,
               "name": "papers",
-              "scope": 135,
+              "scope": 141,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(string => struct Questions.Paper)",
@@ -1334,7 +1334,7 @@
                       "name": "string",
                       "type": "string"
                     },
-                    "id": 88,
+                    "id": 94,
                     "name": "ElementaryTypeName",
                     "src": "268:6:1"
                   },
@@ -1342,20 +1342,20 @@
                     "attributes": {
                       "contractScope": null,
                       "name": "Paper",
-                      "referencedDeclaration": 87,
+                      "referencedDeclaration": 93,
                       "type": "struct Questions.Paper"
                     },
-                    "id": 89,
+                    "id": 95,
                     "name": "UserDefinedTypeName",
                     "src": "278:5:1"
                   }
                 ],
-                "id": 90,
+                "id": 96,
                 "name": "Mapping",
                 "src": "260:24:1"
               }
             ],
-            "id": 91,
+            "id": 97,
             "name": "VariableDeclaration",
             "src": "260:38:1"
           },
@@ -1369,7 +1369,7 @@
                 null
               ],
               "name": "",
-              "scope": 135,
+              "scope": 141,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1382,7 +1382,7 @@
                   ]
                 },
                 "children": [],
-                "id": 92,
+                "id": 98,
                 "name": "ParameterList",
                 "src": "322:2:1"
               },
@@ -1393,7 +1393,7 @@
                   ]
                 },
                 "children": [],
-                "id": 93,
+                "id": 99,
                 "name": "ParameterList",
                 "src": "331:0:1"
               },
@@ -1443,11 +1443,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 134,
+                              "referencedDeclaration": 140,
                               "type": "function (string memory,string memory,string memory,string memory,string memory)",
                               "value": "createPaper"
                             },
-                            "id": 94,
+                            "id": 100,
                             "name": "Identifier",
                             "src": "342:11:1"
                           },
@@ -1464,7 +1464,7 @@
                               "type": "literal_string \"123\"",
                               "value": "123"
                             },
-                            "id": 95,
+                            "id": 101,
                             "name": "Literal",
                             "src": "354:5:1"
                           },
@@ -1481,7 +1481,7 @@
                               "type": "literal_string \"question\"",
                               "value": "question"
                             },
-                            "id": 96,
+                            "id": 102,
                             "name": "Literal",
                             "src": "361:10:1"
                           },
@@ -1498,7 +1498,7 @@
                               "type": "literal_string \"issuerName\"",
                               "value": "issuerName"
                             },
-                            "id": 97,
+                            "id": 103,
                             "name": "Literal",
                             "src": "373:12:1"
                           },
@@ -1515,7 +1515,7 @@
                               "type": "literal_string \"date\"",
                               "value": "date"
                             },
-                            "id": 98,
+                            "id": 104,
                             "name": "Literal",
                             "src": "387:6:1"
                           },
@@ -1532,27 +1532,27 @@
                               "type": "literal_string \"branch\"",
                               "value": "branch"
                             },
-                            "id": 99,
+                            "id": 105,
                             "name": "Literal",
                             "src": "395:8:1"
                           }
                         ],
-                        "id": 100,
+                        "id": 106,
                         "name": "FunctionCall",
                         "src": "342:62:1"
                       }
                     ],
-                    "id": 101,
+                    "id": 107,
                     "name": "ExpressionStatement",
                     "src": "342:62:1"
                   }
                 ],
-                "id": 102,
+                "id": 108,
                 "name": "Block",
                 "src": "331:81:1"
               }
             ],
-            "id": 103,
+            "id": 109,
             "name": "FunctionDefinition",
             "src": "311:101:1"
           },
@@ -1566,7 +1566,7 @@
                 null
               ],
               "name": "createPaper",
-              "scope": 135,
+              "scope": 141,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1578,85 +1578,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_hashval",
-                      "scope": 134,
-                      "stateVariable": false,
-                      "storageLocation": "memory",
-                      "type": "string",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "string",
-                          "type": "string"
-                        },
-                        "id": 104,
-                        "name": "ElementaryTypeName",
-                        "src": "441:6:1"
-                      }
-                    ],
-                    "id": 105,
-                    "name": "VariableDeclaration",
-                    "src": "441:22:1"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_text",
-                      "scope": 134,
-                      "stateVariable": false,
-                      "storageLocation": "memory",
-                      "type": "string",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "string",
-                          "type": "string"
-                        },
-                        "id": 106,
-                        "name": "ElementaryTypeName",
-                        "src": "464:6:1"
-                      }
-                    ],
-                    "id": 107,
-                    "name": "VariableDeclaration",
-                    "src": "464:19:1"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_issuer",
-                      "scope": 134,
-                      "stateVariable": false,
-                      "storageLocation": "memory",
-                      "type": "string",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "string",
-                          "type": "string"
-                        },
-                        "id": 108,
-                        "name": "ElementaryTypeName",
-                        "src": "484:6:1"
-                      }
-                    ],
-                    "id": 109,
-                    "name": "VariableDeclaration",
-                    "src": "484:21:1"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "_date",
-                      "scope": 134,
+                      "scope": 140,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -1671,18 +1593,18 @@
                         },
                         "id": 110,
                         "name": "ElementaryTypeName",
-                        "src": "507:6:1"
+                        "src": "441:6:1"
                       }
                     ],
                     "id": 111,
                     "name": "VariableDeclaration",
-                    "src": "507:19:1"
+                    "src": "441:22:1"
                   },
                   {
                     "attributes": {
                       "constant": false,
-                      "name": "_branch",
-                      "scope": 134,
+                      "name": "_text",
+                      "scope": 140,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -1697,15 +1619,93 @@
                         },
                         "id": 112,
                         "name": "ElementaryTypeName",
-                        "src": "528:6:1"
+                        "src": "464:6:1"
                       }
                     ],
                     "id": 113,
                     "name": "VariableDeclaration",
+                    "src": "464:19:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_issuer",
+                      "scope": 140,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 114,
+                        "name": "ElementaryTypeName",
+                        "src": "484:6:1"
+                      }
+                    ],
+                    "id": 115,
+                    "name": "VariableDeclaration",
+                    "src": "484:21:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_date",
+                      "scope": 140,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 116,
+                        "name": "ElementaryTypeName",
+                        "src": "507:6:1"
+                      }
+                    ],
+                    "id": 117,
+                    "name": "VariableDeclaration",
+                    "src": "507:19:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_branch",
+                      "scope": 140,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 118,
+                        "name": "ElementaryTypeName",
+                        "src": "528:6:1"
+                      }
+                    ],
+                    "id": 119,
+                    "name": "VariableDeclaration",
                     "src": "528:21:1"
                   }
                 ],
-                "id": 114,
+                "id": 120,
                 "name": "ParameterList",
                 "src": "440:110:1"
               },
@@ -1716,7 +1716,7 @@
                   ]
                 },
                 "children": [],
-                "id": 115,
+                "id": 121,
                 "name": "ParameterList",
                 "src": "557:0:1"
               },
@@ -1742,21 +1742,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 72,
+                              "referencedDeclaration": 78,
                               "type": "uint256",
                               "value": "count"
                             },
-                            "id": 116,
+                            "id": 122,
                             "name": "Identifier",
                             "src": "568:5:1"
                           }
                         ],
-                        "id": 117,
+                        "id": 123,
                         "name": "UnaryOperation",
                         "src": "568:8:1"
                       }
                     ],
-                    "id": 118,
+                    "id": 124,
                     "name": "ExpressionStatement",
                     "src": "568:8:1"
                   },
@@ -1789,11 +1789,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 91,
+                                  "referencedDeclaration": 97,
                                   "type": "mapping(string memory => struct Questions.Paper storage ref)",
                                   "value": "papers"
                                 },
-                                "id": 119,
+                                "id": 125,
                                 "name": "Identifier",
                                 "src": "587:6:1"
                               },
@@ -1803,16 +1803,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 105,
+                                  "referencedDeclaration": 111,
                                   "type": "string memory",
                                   "value": "_hashval"
                                 },
-                                "id": 120,
+                                "id": 126,
                                 "name": "Identifier",
                                 "src": "594:8:1"
                               }
                             ],
-                            "id": 121,
+                            "id": 127,
                             "name": "IndexAccess",
                             "src": "587:16:1"
                           },
@@ -1866,11 +1866,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 87,
+                                  "referencedDeclaration": 93,
                                   "type": "type(struct Questions.Paper storage pointer)",
                                   "value": "Paper"
                                 },
-                                "id": 122,
+                                "id": 128,
                                 "name": "Identifier",
                                 "src": "606:5:1"
                               },
@@ -1880,11 +1880,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 72,
+                                  "referencedDeclaration": 78,
                                   "type": "uint256",
                                   "value": "count"
                                 },
-                                "id": 123,
+                                "id": 129,
                                 "name": "Identifier",
                                 "src": "612:5:1"
                               },
@@ -1894,11 +1894,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 105,
+                                  "referencedDeclaration": 111,
                                   "type": "string memory",
                                   "value": "_hashval"
                                 },
-                                "id": 124,
+                                "id": 130,
                                 "name": "Identifier",
                                 "src": "619:8:1"
                               },
@@ -1908,11 +1908,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 107,
+                                  "referencedDeclaration": 113,
                                   "type": "string memory",
                                   "value": "_text"
                                 },
-                                "id": 125,
+                                "id": 131,
                                 "name": "Identifier",
                                 "src": "628:5:1"
                               },
@@ -1922,11 +1922,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 109,
+                                  "referencedDeclaration": 115,
                                   "type": "string memory",
                                   "value": "_issuer"
                                 },
-                                "id": 126,
+                                "id": 132,
                                 "name": "Identifier",
                                 "src": "635:7:1"
                               },
@@ -1936,11 +1936,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 111,
+                                  "referencedDeclaration": 117,
                                   "type": "string memory",
                                   "value": "_date"
                                 },
-                                "id": 127,
+                                "id": 133,
                                 "name": "Identifier",
                                 "src": "644:5:1"
                               },
@@ -1950,11 +1950,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 113,
+                                  "referencedDeclaration": 119,
                                   "type": "string memory",
                                   "value": "_branch"
                                 },
-                                "id": 128,
+                                "id": 134,
                                 "name": "Identifier",
                                 "src": "651:7:1"
                               },
@@ -1971,42 +1971,42 @@
                                   "type": "bool",
                                   "value": "true"
                                 },
-                                "id": 129,
+                                "id": 135,
                                 "name": "Literal",
                                 "src": "660:4:1"
                               }
                             ],
-                            "id": 130,
+                            "id": 136,
                             "name": "FunctionCall",
                             "src": "606:59:1"
                           }
                         ],
-                        "id": 131,
+                        "id": 137,
                         "name": "Assignment",
                         "src": "587:78:1"
                       }
                     ],
-                    "id": 132,
+                    "id": 138,
                     "name": "ExpressionStatement",
                     "src": "587:78:1"
                   }
                 ],
-                "id": 133,
+                "id": 139,
                 "name": "Block",
                 "src": "557:116:1"
               }
             ],
-            "id": 134,
+            "id": 140,
             "name": "FunctionDefinition",
             "src": "420:253:1"
           }
         ],
-        "id": 135,
+        "id": 141,
         "name": "ContractDefinition",
         "src": "26:650:1"
       }
     ],
-    "id": 136,
+    "id": 142,
     "name": "SourceUnit",
     "src": "0:676:1"
   },
@@ -2018,12 +2018,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x601a7408b59c00ae52690582128DC445236C5b64",
-      "transactionHash": "0x6e98cabd963597d20d1b0b7455b51d78b5be51dfcb8a2868d71512b08685b6d0"
+      "address": "0x276E49E8609bf0D383E68bf426c4f19e954C5436",
+      "transactionHash": "0x298fbf4f425e19dde9d819b32f6ef36d394577ad2f2cdfeb876f31b7963218c1"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2023-02-22T12:11:14.839Z",
+  "updatedAt": "2023-03-03T10:58:19.220Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

@@ -8,16 +8,17 @@ contract Cert{
         string course;
         string issuer;
         string date;
+        string percentage;
         bool exists;
     }
     mapping(string => Task)public  tasks;
     
     constructor() public{
-        createTask("123", "Mirza Mohammad Baig", "testing Web3", "BVRIT", "15-11-2022");
+        createTask("123", "Mirza Mohammad Baig", "testing Web3", "BVRIT", "15-11-2022", "100");
     }
 
-    function createTask(string memory _hashval,string memory _name,string memory _course, string memory _issuer, string memory _date) public{
+    function createTask(string memory _hashval,string memory _name,string memory _course, string memory _issuer, string memory _date,string memory _percentage) public{
         count ++;
-        tasks[_hashval] = Task(count, _hashval,_name, _course, _issuer, _date, true);
+        tasks[_hashval] = Task(count, _hashval,_name, _course, _issuer, _date,_percentage,  true);
     }
 }

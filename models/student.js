@@ -12,13 +12,24 @@ const db = mysql.createConnection({
   db.connect((err, res)=>{
     if(err) throw err;
     else
-    console.log("Database connected!!!!");
+    console.log("Database connected!!!! student.js");
 });
 var infop;
 module.exports= {
     insertData: function(data){
         let flag = true;
-       
+        console.log(data);
+        post = {
+            roll_no : data.roll_no,
+            password : data.password,
+            name : data.name,
+            dept : data.department,
+            year : parseInt(data.year),
+            dob : data.dob,
+            email : data.email,
+            ph_no : data.mobile_number,
+            gender : data.gender
+        }
         let query = `insert into student set ?`;
         let q = db.query(query, post, (err, result)=>{
         if(err){
@@ -35,7 +46,7 @@ module.exports= {
 
     auth: function(data){
     const fpw = data.password;
-    const flag = true;
+    var flag = true;
     let query = `SELECT password from student WHERE roll_no like '${data.roll_no}'`;
     const op = db.query(query,(err, result)=>{
         if(err){  flag = false; throw err; } 
@@ -45,15 +56,13 @@ module.exports= {
             flag = false;
         }
         else{
-        let key = Object.keys(result);
-        let pw = result[key].password;
+        let pw = result[0].password;
       
-        console.log("Done!!!");
+        console.log(pw);
         if(pw==fpw){
-        req.session.name = data.username;
-        res.redirect('/verifier/home');
+        
         }
-        else flag = false;
+        else{ flag = false ; }
         }
         }
     });
